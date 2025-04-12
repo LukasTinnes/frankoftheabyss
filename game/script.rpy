@@ -3,8 +3,14 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+"TRIGGER WARNING: THIS GAME CONTAINS SATANIC, EROTIC AND VIOLENT CONTENT"
+
 define you = Character("Frank Bankmayer")
 define entity = Character("Abyss Entity")
+
+define bankmaier = Character("Frank Bankmaier")
+define wife = Character("Astral Projection of Frank's Wife")
+define counsellor = Character("Marriage Counsellor")
 
 image frank:
     "walkcycle 1.png"
@@ -87,7 +93,7 @@ label start:
         return
 
     scene background meeting abyss entity
-    show frank
+    show frank at top
 
     entity "This is the first transition"
 
@@ -96,7 +102,7 @@ label start:
         return
 
     scene background meeting abyss entity
-    show frank
+    show frank at top 
 
     entity "This is the second transition"
 
@@ -105,7 +111,7 @@ label start:
         return
 
     scene background meeting abyss entity
-    show frank
+    show frank at top 
 
     entity "This is the third transition"
 
@@ -114,7 +120,7 @@ label start:
         return
 
     scene background meeting abyss entity
-    show frank
+    show frank at top 
 
     entity "This ist the fourth transition"
 
@@ -123,7 +129,7 @@ label start:
         return
 
     scene background meeting abyss entity
-    show frank
+    show frank at top 
 
     entity "This is the fifth transition"
 
@@ -132,7 +138,7 @@ label start:
         return
 
     scene background meeting abyss entity
-    show frank
+    show frank at top 
 
     entity "This is the last transition"
 

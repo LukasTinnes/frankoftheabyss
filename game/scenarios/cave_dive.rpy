@@ -1,6 +1,5 @@
 label SC_CAVE:
 
-
 scene background meeting abyss entity:
     xzoom 1.37 yzoom 1.37
 
@@ -8,9 +7,12 @@ show abyss entity sprite 1 at top
 
 entity "Oh you have reached the abyss of temptation"
 entity "..."
+show abyss entity sprite hot at top
 entity "sexy"
 
 you "..."
+
+show abyss entity sprite 1 at top
 
 entity "Thou should'th be'th carefuleth around these partths" 
 entity "hearsay hear thaeyat hearyeath beeth Paths mostth dangerous"
@@ -23,12 +25,30 @@ entity "Would'th thouth liketh to enter thee pathee lefeth? or Rigththth?"
 menu:
 
     "left":
-         entity "Go forth"
-         $ dead = True
-         jump SC_CAVE_LEFT
+         entity "Dust though trooly wish to enter the devils behind, it is a most tigth cavern!?"
+         you "Please just stop talking like that"
+         entity "Mine thesaurs iseth maysay excellentium, my dearest Bankmayer"
+         you "Was that even a real world"
+         entity "Neverthedevil, do you wishes to enter the devils behind now?"
+         menu:         
+             "Yes":
+                 entity "Thee should really beath EXRTAYTH..."
+                 you "STOP!!!"
+                 you "For the love of god just stop with this"
+                 you "I don't even recognize you anymore"
+                 entity "..."
+                 you "..."
+                 you "It's almost like there is an imposter among us..."
+                 $ dead = True
+                 jump SC_CAVE_LEFT
+             "No":
+                 show abyss entity sprite hot at top
+                 entity "I knew you weren't sexy enough"
+                 return
     "right":
          show abyss entity sprite 3
-         entity "You are fucking boring old man"
+         entity "You are boring old man"
+         you "rude"
          return
 
 label SC_CAVE_LEFT:
