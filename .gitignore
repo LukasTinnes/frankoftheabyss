@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.rpyc
+*.rpyb
 log.txt
 traceback.txt
 errors.txt
