@@ -12,6 +12,8 @@ define bankmaier = Character("Frank Bankmaier")
 define wife = Character("Astral Projection of Frank's Wife")
 define counsellor = Character("Marriage Counsellor")
 
+define usb = Character("A USB Stick")
+
 image frank:
     "walkcycle 1.png"
     pause 0.2
