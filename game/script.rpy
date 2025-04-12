@@ -88,58 +88,77 @@ label start:
 
     pause
 
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
+    show frank at top
+    "Frank begins his journey to find the Kundendaten USB Stick"
+
     call SC_CAVE from _call_SC_CAVE
     if dead:
         return
 
-    scene background meeting abyss entity
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
     show frank at top
-
-    entity "This is the first transition"
+    "Frank survied his first encounter in the abyss, he marches on, bravely"
 
     call SC_DOPPEL from _call_SC_DOPPEL
     if dead:
         return
 
-    scene background meeting abyss entity
-    show frank at top 
-
-    entity "This is the second transition"
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
+    show frank at top
+    "With two encounters under his belt, Fank begins to grow confident, maybe he can do this. He charges ahead!"
 
     call SC_SCHWIEGER from _call_SC_SCHWIEGER
     if dead:
         return
 
-    scene background meeting abyss entity
-    show frank at top 
-
-    entity "This is the third transition"
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
+    show frank at top
+    "Half of all encounters are finished..."
+    "Shit, was that a spoiler?"
+    "Ahh, never mind, keep walking Franky"
 
     call SC_USB from _call_SC_USB
     if dead:
         return
 
-    scene background meeting abyss entity
-    show frank at top 
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
+    show frank at top
+    "Frank rests to consume ISO Getränke."
+    pause
+    "Refreshed, Frank charges ahead"
 
-    entity "This ist the fourth transition"
 
     call SC_AI from _call_SC_AI
     if dead:
         return
 
-    scene background meeting abyss entity
-    show frank at top 
-
-    entity "This is the fifth transition"
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
+    show frank at top
+    "The Kundendaten USB draws near, Frank tastes the bytes as if he was eating"
 
     call SC_DEVS from _call_SC_DEVS
     if dead:
         return
 
-    scene background meeting abyss entity
-    show frank at top 
+    scene bg black    
+    show background meeting abyss entity:
+        xzoom 1.5 yzoom 1.5
+    show frank at top
+    "After all that time, after all those marriage counselors, Schwiegermütters, and cave diving accidents..."
+    "Frank races to his final destination."
 
-    entity "This is the last transition"
 
     return
