@@ -9,8 +9,11 @@ show abyss entity sprite 1 at left
 entity "This is the abyss of double sta..."
 show marriage counsellor of the abyss sprite at right
 counsellor "Hello, I am a marriage counsellor"
-entity "Nah, you're on your own..."
 hide abyss entity sprite 1
+show abyss entity sprite 5 at left
+entity "Nah, you're on your own..."
+hide abyss entity sprite 5
+pause
 
 counsellor "Hello Frank I am your marriage councellor"
 you "It's spelled \"counsellor\""

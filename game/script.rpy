@@ -23,6 +23,19 @@ image frank:
     pause 0.2
     repeat
 
+image iso:
+    "iso animation 1.png"
+    pause 0.2
+    "iso animation 2.png"
+    pause 0.2
+    "iso animation 3.png"
+    pause 0.2
+    "iso animation 4.png"
+    pause 0.2
+    "iso animation 5.png"
+    pause 0.2
+    repeat
+
 define dead = False
 
 
@@ -137,6 +150,8 @@ label start:
         xzoom 1.5 yzoom 1.5
     show frank at top
     "Frank rests to consume ISO Getränke."
+    hide frank
+    show iso at top
     pause
     "Refreshed, Frank charges ahead"
 
