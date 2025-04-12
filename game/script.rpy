@@ -4,13 +4,15 @@
 # name of the character.
 
 define you = Character("Frank Bankmayer")
+define entity = Character("Entity")
 
 
 # The game starts here.
 
 label start:
 
-    show frank 1
+    show frank 1:
+        xzoom 1.3 yzoom 1.3
 
     pause 2
 
