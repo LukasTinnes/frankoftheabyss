@@ -44,6 +44,17 @@ menu:
                  entity "..."
                  you "..."
                  you "It's almost like there is an imposter among us..."
+                 
+                 show abyss entity sprite 5
+
+                 pause
+
+                 show abyss entity sprite 4
+                 
+                 pause
+                 
+                 "Frank offended the abyss entity so much she left."
+
                  $ dead = True
                  jump SC_CAVE_LEFT
              "No":

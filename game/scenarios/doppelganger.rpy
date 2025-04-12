@@ -1,6 +1,9 @@
 label SC_DOPPEL:
 
-scene background doppelgaenger
+scene bg black
+
+show background doppelgaenger:
+    xzoom 1.5 yzoom 1.5
 
 show abyss entity sprite 1 at left
 entity "This is the abyss of double sta..."
