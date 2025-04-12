@@ -27,7 +27,22 @@ label SC_DEVS:
 
     menu epicepicnessepic:
         "Yes":
-            #TODO CAT
+            scene bg black
+
+            image gato:
+                "el gato gif 1.png" 
+                pause 0.2
+                "el gato gif 2.png" 
+                pause 0.2
+                "el gato gif 3.png" 
+                pause 0.2
+                "el gato gif 2.png"
+                pause 0.2
+                repeat
+            show gato at top
+            pause
+            "Wait... Where is the data corruption cat?"
+            "It should not be touched at all cost!"
             scene game over developers:
                 xzoom 1.43 yzoom 1.75
             "The developers have accidentally eradicated Frank."
