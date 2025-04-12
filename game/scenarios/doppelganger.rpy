@@ -71,7 +71,7 @@ menu:
         counsellor "Correct!"
         bankmaier "I can't beleif I lost to him"
         you "Did you see that, I won!"
-        bankmayer "Not now honey, I am reading memes..."
+        wife "Not now honey, I am reading memes..."
 
 return
 
