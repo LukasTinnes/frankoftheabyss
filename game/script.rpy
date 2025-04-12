@@ -15,6 +15,9 @@ image frank:
     pause 0.2
     repeat
 
+define dead = False
+
+
 
 # The game starts here.
 
@@ -80,39 +83,55 @@ label start:
     pause
 
     call SC_CAVE from _call_SC_CAVE
+    if dead:
+        return
 
-    # show walkcycle 1    
-
+    scene background meeting abyss entity
     show frank
 
     entity "This is the first transition"
 
     call SC_DOPPEL from _call_SC_DOPPEL
+    if dead:
+        return
 
+    scene background meeting abyss entity
     show frank
 
     entity "This is the second transition"
 
     call SC_SCHWIEGER from _call_SC_SCHWIEGER
+    if dead:
+        return
 
+    scene background meeting abyss entity
     show frank
 
     entity "This is the third transition"
 
     call SC_USB from _call_SC_USB
+    if dead:
+        return
 
+    scene background meeting abyss entity
     show frank
 
     entity "This ist the fourth transition"
 
     call SC_AI from _call_SC_AI
+    if dead:
+        return
 
+    scene background meeting abyss entity
     show frank
 
     entity "This is the fifth transition"
 
     call SC_DEVS from _call_SC_DEVS
+    if dead:
+        return
 
+    scene background meeting abyss entity
     show frank
 
     entity "This is the last transition"
