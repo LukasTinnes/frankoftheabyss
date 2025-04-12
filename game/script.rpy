@@ -180,5 +180,7 @@ label start:
     "After all that time, after all those marriage counselors, Schwiegermütters, and cave diving accidents..."
     "Frank races to his final destination."
 
+    call SC_BOSS from _call_SC_BOSS
+
 
     return

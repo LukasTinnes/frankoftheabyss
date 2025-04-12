@@ -4,7 +4,7 @@ show abyss entity sprite 1
 
 entity "We have been through a lot haven't we"
 
-you "I was, you just made dum bjokes and talked weird..."
+you "I was, you just made dumb jokes and talked weird..."
 
 you "and called me old!"
 
@@ -41,7 +41,7 @@ lucifer "Did she behave well?"
 you "Well..."
 
 menu:
-    "She dragged me through a whole bunch of uneccesary degrading trials"
+    "She dragged me through a whole bunch of uneccesary degrading trials":
         lucifer "Don't you see Frank? These trials were designed to help you become a better person."
         you "An uncontably infinite number people died on the train tracks"
         lucifer "Don't worry, those were syntheticy humans. They feel and think just like real humans, but they are all lab grown for the purpose of giving lessons."
@@ -85,7 +85,7 @@ menu:
         lucifer "Ok, here you go"
         you "thanks"
         lucifer "Want to go to the restaurant of my son?"
-        you "ehh, sounds good, my wife is druck anyways"
+        you "ehh, sounds good, my wife is drunck anyways"
         return
     "No":
         lucifer "What? What do you mean no?"
