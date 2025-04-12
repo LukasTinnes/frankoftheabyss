@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.rpyc
 *.rpyb
+*.rpymc
 log.txt
 traceback.txt
 errors.txt
