@@ -1,7 +1,7 @@
 label SC_DEVS:
     scene background developers:
         xzoom 1.43 yzoom 1.75
-    hide abyss entity sprite 1
+    show abyss entity sprite 1
     entity "The abyss of Zealots..."
     entity "It feels pretty cozy in here."
     show lukasmogus sprite at center
@@ -14,7 +14,7 @@ label SC_DEVS:
     define belten = Character("Beltenmogus")
     belten "And triple!"
     show timogus sprite at top
-    define tim = Character("Beltenmogus")
+    define tim = Character("Timogus")
     tim "AirBnB"
 
     lukas "Do"
@@ -28,7 +28,8 @@ label SC_DEVS:
     menu epicepicnessepic:
         "Yes":
             #TODO CAT
-            scene game over developers
+            scene game over developers:
+                xzoom 1.43 yzoom 1.75
             "The developers have accidentally eradicated Frank."
             "We hope it was worth it."
             pause
