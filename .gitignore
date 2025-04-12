@@ -3,9 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.rpyc
-game/log.txt
-game/traceback.txt
-game/errors.txt
+log.txt
+traceback.txt
+errors.txt
 game/saves/
 game/cache/
 # C extensions
