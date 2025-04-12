@@ -7,7 +7,7 @@ label SC_SCHWIEGER:
     entity "Welcome to the abyss of ethics!"
     entity "This place is all about ethics and moral dilemmas."
     define schweiger = Character("Schwiegermutter of the abyss")
-    show Schwiegermutter sprite
+    show schwiegermutter sprite
 
     schweiger "FRANK? IS THAT YOU?!"
     schweiger "Get your lazy ass here right now!"
