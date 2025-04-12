@@ -51,7 +51,7 @@ counsellor "..."
 you "That's not a question"
 counsellor "CORRECT"
 bankmaier "Damn, you are better than I thought you would be"
-wifer "*hic* I rweally wanded thousch pancakes"
+wife "*hic* I rweally wanded thousch pancakes"
 
 counsellor "And the third question"
 counsellor "What was your wife doing before you left the home"

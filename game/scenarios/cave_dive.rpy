@@ -1,7 +1,9 @@
 label SC_CAVE:
 
-scene background meeting abyss entity:
-    xzoom 1.37 yzoom 1.37
+scene bg black
+
+show background meeting abyss entity:
+    xzoom 1.5 yzoom 1.5
 
 show abyss entity sprite 1 at top
 
@@ -16,6 +18,9 @@ show abyss entity sprite 1 at top
 
 entity "Thou should'th be'th carefuleth around these partths" 
 entity "hearsay hear thaeyat hearyeath beeth Paths mostth dangerous"
+
+show background cave of eternal torment
+show abyss entity sprite 1 at top
 
 you "Why do you talk like that?"
 
