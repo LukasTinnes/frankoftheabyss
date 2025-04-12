@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.rpyc
+game/saves/
+game/cache/
+
 # C extensions
 *.so
 .vscode

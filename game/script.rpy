@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
 define you = Character("Frank Bankmayer")
 
 
@@ -12,16 +10,61 @@ define you = Character("Frank Bankmayer")
 
 label start:
 
+    show frank 1
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    pause 2
 
-    scene bg room
+    show frank 2
+    
+    pause 2
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    show frank 3
+    
+    pause 2
+
+    show frank 4
+
+    pause 2
+
+    show frank 5
+    
+    pause 2
+
+    show frank 6
+
+    pause 2
+
+    show frank 7
+    
+    pause 2
+ 
+    show frank 8
+    
+    pause 2
+
+    show frank 9
+    
+    pause 2
+
+    show frank 10
+    
+    pause 2
+
+    show frank 11
+    
+    pause 2
+
+    show frank 12
+    
+    pause 2
+
+    show frank 13
+    
+    pause 2
+
+    show frank 14
+
+    pause 2
 
     call SC_CAVE from _call_SC_CAVE
 
