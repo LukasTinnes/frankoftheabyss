@@ -1,5 +1,10 @@
 label SC_BOSS:
 
+scene bg black
+
+show background final boss:
+    xzoom 1.5 yzoom 1.5
+
 show abyss entity sprite 1
 
 entity "We have been through a lot haven't we"
@@ -32,6 +37,8 @@ you "and she's gone, great..."
 
 you "now, what..."
 
+show lucifer sprite at top
+
 lucifer "I see, you met my daughter!"
 
 you "I guess this is suposed to be a plot twist?"
@@ -51,7 +58,7 @@ menu:
         lucifer "We are all scared of the mariage counseller"
         you "figures..."
     "She talks weird":
-        lucifer "I apologize, it is the brain damage she resceivd at child birth."
+        lucifer "I apologize, it is the brain damage she received at child birth."
         you "oh..."
         you "... sorry"
         lucifer "Check your privilege next time"
@@ -61,6 +68,9 @@ menu:
         lucifer "Don't worry, those were syntheticy humans. They feel and think just like real humans, but they are all lab grown for the purpose of giving lessons."
         you "..."
         you "wow"
+
+hide lucifer sprite
+show refi sprite at top
 
 refi "hi"
 
@@ -74,6 +84,10 @@ refi "We even had real artists paint some paintings, because we were inspired by
 
 you "Impressive, I will definitely come by, once I retrieved my Kundendaten USB Stick"
 
+hide refi sprite
+
+show lucifer sprite at top
+
 lucifer "Oh about that..."
 
 you "...yes?"
@@ -85,8 +99,11 @@ menu:
         lucifer "Ok, here you go"
         you "thanks"
         lucifer "Want to go to the restaurant of my son?"
-        you "ehh, sounds good, my wife is drunck anyways"
-        return
+        you "ehh, sounds good, my wife is drunk anyways"
+        scene bg black
+        show end:
+            xzoom 1.5 yzoom 1.5
+        "A good time was had by all at Revi's restaurant."
     "No":
         lucifer "What? What do you mean no?"
         lucifer "didn't you come all this way down here to get your Kundendaten back"
@@ -106,30 +123,32 @@ menu:
                 you "Thanks man"
                 lucifer "Alright"
             "To divorce my wife":
-                lucifier "Sorry mate, you need to speak to the counseller for that"
+                lucifer "Sorry mate, you need to speak to the counseller for that"
                 you "... damn"
                 you "that guy is scary"
-                lucifier "true"
+                lucifer "true"
+                show marriage counsellor of the abyss sprite
                 counsellor "hello..."
                 you "AHHHH"
-                lucifier "AHHHH"
+                lucifer "AHHHH"
                 counsellor "AHHHH"
                 "AHHHHH"
             "... I just appreciate artistic expressions like this game":
-                lucifier "You call this artistic expression?"
+                lucifer "You call this artistic expression?"
                 you "Supporting the youth is important"
-                lucifier "None of the developers are especially young you know"
+                lucifer "None of the developers are especially young you know"
                 you "Art is timeless"
-                lucifier "I guess."
-                
+                lucifer "I guess."
+
 "And thus the story of Frank draws to a close. What did we learn today?"
 "..."
 "Not sure either..."
 
+scene bg black
+show end:
+    xzoom 1.5 yzoom 1.5
+"Thank you for playing!"
 
-
-
-
-
+pause
 
 return
