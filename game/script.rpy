@@ -14,6 +14,9 @@ define counsellor = Character("Marriage Counsellor")
 
 define usb = Character("A USB Stick")
 
+define lucifer = Character("Lucifer")
+define refi = Character("Refi")
+
 image frank:
     "walkcycle 1.png"
     pause 0.2
