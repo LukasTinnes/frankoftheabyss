@@ -145,7 +145,7 @@ menu:
 "Not sure either..."
 
 scene bg black
-show end:
+show thx for playing:
     xzoom 1.5 yzoom 1.5
 "Thank you for playing!"
 

@@ -102,6 +102,10 @@ show game over usb stick animation 6
 
 pause
 
+show game over usb stick animation 7
+
+pause
+
 $ dead = True
 
 "Frank accidentally downlaoded a car."
