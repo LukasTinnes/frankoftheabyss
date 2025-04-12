@@ -47,13 +47,14 @@ label SC_AI:
             scene background ai demon:
                 xzoom 1.43 yzoom 1.75
             you "..."
-            you "..."
-            you "..."
-            you "..."
-            you "..."
-            you "..."
+            you "...."
+            you "....."
+            you "......"
+            you "......."
+            you "........"
             scene ai demon game over:
                 xzoom 1.43 yzoom 1.75
+            "Frank has succumbed to TikTok Brainrot."
             pause
             $dead=True
             return
@@ -66,7 +67,6 @@ label SC_AI:
             ai "Without them, the people would really struggle with filing out their tax forms! 📜"
             ai "What exactly do you want to know about Steuerberatung?"
             menu tax_auswahl:
-
                 "Useful Information":
                     you "I always struggled with Verböserung. What do you know about the topic Verböserung."
                     show ai demon sprite 2
@@ -90,9 +90,10 @@ label SC_AI:
                     ai "T 0788/90"
                     ai "T 0923/92"
                     ai "To really help you understand the concept of Verböserung, I will start explaining each of these decisions to you now."
-                    scene ai demon game over:
+                    scene game over ai demon 2:
                         xzoom 1.43 yzoom 1.75
-                    pause
+                    "Frank Bankmayer has realized, that he is in fact completely shit at his job."
+                    pause 
                     $dead=True
                     return
                 "How to cheat your customers":
@@ -112,8 +113,8 @@ label SC_AI:
                     you "Hm... Interesting. How would the Steuerberater even be able to hide these illegal activities."
                     ai "Actually. Hiding these illegal activities is way more simple than one would think."
                     ai "..."
-                    ai "..."
-                    ai "..."
+                    ai "...."
+                    ai "....."
                     you "WOW! Who would have thought it was this easy to scam your customers, obtain large amounts of money."
                     you "And then build up a thermonuclear weapon arsenal in your backyards using nothing but scraps."
                     you "Thank you very much for this lovely chat. Unfortunately I have to go now."
