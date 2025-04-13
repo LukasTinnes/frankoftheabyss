@@ -2,23 +2,32 @@ label SC_AI:
     scene background meeting abyss entity:
         xzoom 1.43 yzoom 1.75
     show abyss entity sprite 1
-
+    voice "abyss_future_1.mp3"
     entity "Oh! We have reached the abyss of future."
     you "What do you mean future?"
+    voice "abyss_future_2.mp3"
     entity "In this part of the abyss, everyone loves the next new thing."
+    voice "abyss_future_3.mp3"
     entity "You could say, everything is cutting edge!"
     you "Don't you mean everything is edgy?"
+    voice "abyss_future_4.mp3"
     entity "No. I said cutting edge."
     you "The last cutting edge achievement in my line of work was Excel."
+    voice "abyss_future_5.mp3"
     entity "Okay Frank..."
+    voice "abyss_future_6.mp3"
     entity "Maybe you should take a look around and see that things have changed since 1985."
     you "Excel has been the best tool for my work for a long time now!"
     show abyss entity sprite 3
+    voice "abyss_future_7.mp3"
     entity "Yeah. Just like the USB stick containing all your Kundendaten!"
+    voice "abyss_future_8_epic.mp3"
     entity "With NO FUCKING backup."
     you "If it helps with my work, I could look around before venturing on!"
+    voice "abyss_future_9.mp3"
     entity "Good!"
     show abyss entity sprite 2
+    voice "abyss_future_10.mp3"
     entity "See you in the next abyss!"
     hide abyss entity sprite 2
     hide abyss entity sprite 3
@@ -30,7 +39,6 @@ label SC_AI:
 
 
     define ai = Character("AI Demon")
-
     ai "Hey there! 👋 How are you doing today fellow demon? 😈"
     you "Ehm. Hello? Why are you talking weirdly like that?"
     ai "I am here to help you with anything and everything! 😁"
